@@ -1,6 +1,7 @@
 'use client';
 import React from 'react';
 import { motion } from 'framer-motion';
+import { Link, useLocation } from "react-router-dom";
 import { useInView } from 'react-intersection-observer';
 
 export default function Hero() {
@@ -29,7 +30,7 @@ export default function Hero() {
           Bold flavors. Fast service. Local love. Enjoy your favorite meals made fresh every day.
         </p>
         <button className="bg-rose-600 hover:bg-rose-700 text-white font-semibold px-10 py-3 rounded-full transition">
-          <a href="/menu">Order Now</a>
+          <Link to="/menu">Order Now</Link>
         </button>
       </div>
     </div>

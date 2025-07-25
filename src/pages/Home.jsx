@@ -9,7 +9,7 @@ import Testimonial from "../Components/Testimonial";
 export default function Home() {
   return (
     <>
-    <div className="h-[100vh] bg-cover"  style={{ backgroundImage: "url('./images/bg3.jpg')" }}>
+    <div className="h-[100vh] bg-cover"  style={{ backgroundImage: "url('./images/bg3.webp')" }}>
       <div className="absolute inset-0 bg-gradient-to-b from-black/80 grayscale via-black/40 to-black/20 z-0"></div>
       <Navbar/>
       <Hero/>

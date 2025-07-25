@@ -14,7 +14,7 @@ export default function Navbar() {
     <nav
       className={`${
         isHome ? "bg-transparent" : "bg-rose-900"
-      } text-white px-6 py-4 flex justify-between items-center transition-all duration-300 relative z-10`}
+      } text-white px-6 py-4 flex justify-between items-center transition-all duration-300 relative z-40`}
     >
       {/* Logo */}
       <Link to="/" className="text-2xl font-bold">Yaanyo Fast-Food</Link>
@@ -43,7 +43,7 @@ export default function Navbar() {
 
       {/* Mobile dropdown */}
       {isOpen && (
-        <div className="absolute top-full left-0 w-full bg-rose-900 md:hidden flex flex-col gap-2 py-4 z-20 shadow-md">
+        <div className="absolute top-full left-0 w-full bg-rose-900 md:hidden flex flex-col gap-2 py-4 z-40 shadow-md">
           <Link to="/" onClick={closeMenu} className="px-4 py-2 hover:underline">Home</Link>
           <Link to="/menu" onClick={closeMenu} className="px-4 py-2 hover:underline">Menu</Link>
           <Link to="/about" onClick={closeMenu} className="px-4 py-2 hover:underline">About</Link>

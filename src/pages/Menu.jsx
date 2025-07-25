@@ -5,14 +5,14 @@ const menuItems = [
   {
     name: "Classic Cheeseburger",
     description: "Grilled beef patty with cheese, lettuce, and tomato",
-    image: "./images/cheeseburger.jpg",
+    image: "./images/cheeseburger.webp",
     price: "12.99",
     rating: "4.9",
   },
     {
     name: "Chicken Shawarma",
     description: "Marinated chicken wrapped in flatbread with veggies",
-    image: "./images/shawarma.jpg",
+    image: "./images/shawarma.webp",
     price: "5.99",
     rating: "5.0",
   },
@@ -21,21 +21,21 @@ const menuItems = [
   {
     name: "Crispy French Fries",
     description: "Golden, crispy potato fries with seasoning",
-    image: "./images/frenchfries.jpg",
+    image: "./images/frenchfries.webp",
     price: "3.00",
     rating: "5.0",
   },
     {
     name: "Grilled Chicken Plate",
     description: "Tender grilled chicken with herbs and spices",
-    image: "./images/chicken.jpg",
+    image: "./images/chicken.webp",
     price: "7.49",
     rating: "4.8",
   },
     {
     name: "Pepperoni Pizza",
     description: "Cheesy pizza topped with spicy pepperoni",
-    image: "./images/pizza.jpg",
+    image: "./images/pizza.webp",
     price: "6.99",
     rating: "5.0",
   },
@@ -51,8 +51,6 @@ export default function Menu() {
         <h2 className="text-3xl text-center font-serif font-semibold mb-10 text-black">
           Choose Your Best Food
         </h2>
-
-        {/* Grid layout: 1 column on mobile, 2 on medium, 3 on large */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {menuItems.map((item, index) => (
             <MenuCard key={index} item={item} />

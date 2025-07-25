@@ -7,10 +7,9 @@ export default function AboutUs() {
     <section className="bg-white py-12 px-4 sm:px-6 lg:px-16 mt-8">
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-10">
         
-        {/* Image Section */}
         <div className="w-full md:w-1/2">
           <img
-            src="./images/bg3.jpg" // Replace with your actual image path
+            src="./images/bg3.webp" 
             alt="Qalanjo Fast Food kitchen"
             className="rounded-2xl shadow-xl w-full object-cover"
           />

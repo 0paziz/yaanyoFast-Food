@@ -8,7 +8,7 @@ const popularDishes = [
   {
     name: 'Zesty Beef Burger',
     description: 'Grilled beef, cheese & spicy mayo',
-    image: './images/burger1.jpg',
+    image: './images/burger1.webp',
     price: '12.99',
     rating: 4.8,
     inStock: true,
@@ -17,7 +17,7 @@ const popularDishes = [
   {
     name: 'Classic Shawarma',
     description: 'Marinated chicken with garlic sauce',
-    image: './images/classic-shawarma.jpg',
+    image: './images/classic-shawarma.webp',
     price: '6.49',
     rating: 4.9,
     inStock: true,
@@ -26,7 +26,7 @@ const popularDishes = [
   {
     name: 'Loaded Fries',
     description: 'Topped with beef & cheese',
-    image: './images/loaded-fries.jpg',
+    image: './images/loaded-fries.webp',
     price: '4.99',
     rating: 4.7,
     inStock: false,
@@ -35,7 +35,7 @@ const popularDishes = [
   {
     name: 'Spicy Chicken Wings',
     description: 'Crispy wings with hot sauce',
-    image: './images/spicy-wings.jpg',
+    image: './images/spicy-wings.webp',
     price: '7.25',
     rating: 4.6,
     inStock: true,
@@ -44,7 +44,7 @@ const popularDishes = [
   {
     name: 'Creamy Pasta Box',
     description: 'Pasta with white sauce & herbs',
-    image: './images/creamy-pasta.jpg',
+    image: './images/creamy-pasta.webp',
     price: '8.75',
     rating: 4.9,
     inStock: false,
@@ -86,7 +86,7 @@ export default function PopularDishes() {
               src={dish.image}
               alt={dish.name}
               className="h-32 w-full object-cover"
-              loading="lazy" 
+    
             />
 
             <div className="p-3 flex-1 flex flex-col justify-between">

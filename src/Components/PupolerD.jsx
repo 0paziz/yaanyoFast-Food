@@ -86,6 +86,7 @@ export default function PopularDishes() {
               src={dish.image}
               alt={dish.name}
               className="h-32 w-full object-cover"
+              loading="lazy" 
             />
 
             <div className="p-3 flex-1 flex flex-col justify-between">

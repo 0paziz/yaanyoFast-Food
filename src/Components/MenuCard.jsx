@@ -18,6 +18,7 @@ export default function MenuCard({ item }) {
       className="group w-[18rem] sm:w-[20rem] bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:scale-105"
     >
       <img
+        loading="lazy" 
         className="w-full h-[14rem] object-cover"
         src={item.image}
         alt={item.name}
